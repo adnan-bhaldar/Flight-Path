@@ -521,6 +521,10 @@ footer {
   gap: 4rem 2rem;
 }
 
+.footer__bar a{
+  color: var(--primary-color);
+}
+
 .footer__col p {
   max-width: 300px;
   margin-block: 2rem;

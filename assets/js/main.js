@@ -74,3 +74,10 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 20,
   loop: true,
 });
+
+
+
+/**
+ * Dynamic Year in footer
+ */
+document.getElementById("current-year").textContent = new Date().getFullYear();
